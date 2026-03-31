@@ -160,6 +160,9 @@ img { max-width: 100%; height: auto; display: block; }
 .fin-label { font-size: 0.9rem; color: var(--text-light); }
 .fin-value { font-size: 1rem; font-weight: 800; color: var(--dark2); }
 .fin-item.highlight-gold .fin-value { color: var(--gold); font-size: 1.1rem; }
+.fin-item.highlight-total { background: rgba(201,162,39,0.18); border-radius: 8px; border: 1px solid var(--gold); margin-top: 0.75rem; padding: 0.6rem 0.8rem; }
+.fin-item.highlight-total .fin-label { color: var(--gold); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.fin-item.highlight-total .fin-value { color: var(--gold); font-size: 1.3rem; }
 .oport-vantagens { margin-bottom: 2rem; }
 .oport-vantagens h4 { font-size: 0.9rem; font-weight: 700; color: var(--dark2); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.5px; }
 .oport-vantagens ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
